@@ -1,0 +1,143 @@
+# ============================================
+# Arquivos gerados pelo MASM (Microsoft Macro Assembler)
+# ============================================
+
+# Objetos e bibliotecas
+*.obj
+*.lib
+*.exp
+*.ilk
+*.pdb
+
+# Executáveis do Windows
+*.exe
+*.dll
+*.sys
+*.drv
+
+# Arquivos de recursos e mapas
+*.res
+*.map
+
+# Arquivos de lista (.lst) e de saída do assembler
+*.lst
+*.cod
+
+# Arquivos de dependência (gerados pelo ml /Gz etc.)
+*.dep
+
+# ============================================
+# Arquivos gerados pelo GNU Assembler (GAS) / binutils
+# ============================================
+
+# Objetos ELF/COFF
+*.o
+*.a
+*.so
+*.dylib
+
+# Executáveis do Linux/Unix
+*.out
+*.bin
+*.elf
+
+# Mapas e arquivos de depuração (GDB)
+*.gdb
+*.sym
+
+# ============================================
+# Ferramentas de build e automação
+# ============================================
+
+# Pastas comuns de build
+build/
+bin/
+obj/
+out/
+Debug/
+Release/
+x64/
+x86/
+
+# Scripts de build gerados (se houver)
+Makefile.in
+configure
+config.status
+
+# ============================================
+# Arquivos temporários do Windows
+# ============================================
+
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# Arquivos temporários do Visual Studio
+*.suo
+*.user
+*.cache
+*.vspscc
+*.vssscc
+*.sln.docstates
+
+# Arquivos do MASM32 SDK (se usado)
+masm32/
+include/
+lib/
+
+# ============================================
+# Editores / IDEs
+# ============================================
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Notepad++ (backups)
+*.bak
+
+# Vim / Neovim
+*.swp
+*.swo
+*~
+.*.un~
+
+# Emacs
+*#
+.#*
+\#*
+
+# ============================================
+# Arquivos de log e dumps
+# ============================================
+
+*.log
+*.tmp
+*.temp
+*.dmp
+
+# ============================================
+# Arquivos específicos de projeto (exemplos)
+# ============================================
+
+# Caso use um arquivo de configuração pessoal
+config.inc
+local.inc
+
+# ============================================
+# Sistemas de controle de versão (caso haja sub-módulos)
+# ============================================
+
+.gitmodules
+.gitattributes (opcional, mas pode ignorar)
+
+# ============================================
+# Qualquer outra coisa que você queira ignorar
+# ============================================
+
+# Diretório de documentação gerada (se houver)
+docs/_build/
