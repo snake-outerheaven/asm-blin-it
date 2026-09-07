@@ -1,11 +1,13 @@
-#define WIN32_LEAN_AND_MEAN
-#include <windows.h>
-#include <stddef.h>
+#include <unistd.h>
+#include <string.h>
+
+char const *msg = "Hello World!\n";
 
 int main()
 {
-        LPCSTR hello = "Oi mundo!\n";
-        LPCSTR capt = "Compilado pelo MSVC.\n";
-        MessageBoxA(NULL, hello, capt, MB_OK);
-        ExitProcess(0);
+        int len = strlen(msg);
+
+        write(1, msg, len + 1);
+
+        _exit(0);
 }
