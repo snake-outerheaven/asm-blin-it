@@ -141,3 +141,6 @@ local.inc
 
 # Diretório de documentação gerada (se houver)
 docs/_build/
+
+#MARS MIPS IDE
+*.jar
